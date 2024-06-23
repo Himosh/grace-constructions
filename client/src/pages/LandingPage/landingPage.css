@@ -1,13 +1,15 @@
 .landing-page {
-    display: flex;
     width: 100%;
-    padding: 13px, 13%;
     align-items: center;
     justify-content: center;
     margin-top: 95px;
 }
 
-.hero-section-head {
+.hero-section {}
+
+.hero-section-head,
+.service-section-head,
+.work-showcase-head {
     color: #172554;
     font-size: 45px;
     font-weight: 700;
@@ -18,5 +20,130 @@
     color: #172554;
     font-size: 15px;
     text-align: center;
+    margin: 25px 8%;
+}
+
+.hero-section-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 150px;
+}
+
+.service-section {
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.service-box-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 8%;
+}
+
+.service-box {
+    width: 380px;
+    height: 320px;
+    border-radius: 20px;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #172554;
+    transition: 0.3s;
+}
+
+.service-box-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #172554;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.service-box-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-box-head {
+    color: #172554;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.service-box-para {
+    color: #172554;
+    font-size: 15px;
+    text-align: center;
     margin-top: 25px;
+}
+
+.work-showcase {
+    justify-content: center;
+    align-items: center;
+    margin: 180px 8%;
+}
+
+.work-showcase-para {
+    color: #172554;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.building-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.building-images img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 0 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #172554;
+    color: white;
+    border: none;
+    padding: 3px 16px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.slider-button-left {
+    left: -23px;
+}
+
+.slider-button-right {
+    right: -23px;
 }
