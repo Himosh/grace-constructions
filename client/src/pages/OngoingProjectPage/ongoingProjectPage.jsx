@@ -1,7 +1,7 @@
 import { FaUser, FaMoneyBillWave, FaCalendarAlt, FaMapMarkerAlt, FaUserTie, FaRegCalendarCheck } from 'react-icons/fa';
 import './ongoingProjectPage.css';
 import { useEffect, useState } from 'react';
-import ongoingProject from '../../../data/ongoingProjects';
+import ongoingProject from '../../data/ongoingProjects';
 
 const OngoingProjectPage = () => {
     const [ongoingProjectData, setOngoingProjectData] = useState([]);

@@ -1,5 +1,6 @@
 import './App.css';
-import OngoingProjectPage from './pages/SamplePage/OngoingProjectPage/ongoingProjectPage';
+import OngoingProjectPage from './pages/OngoingProjectPage/ongoingProjectPage';
+
 
 function App() {
   return (
