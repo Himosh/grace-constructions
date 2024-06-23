@@ -1,0 +1,22 @@
+.landing-page {
+    display: flex;
+    width: 100%;
+    padding: 13px, 13%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.hero-section-head {
+    color: #172554;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-section-para {
+    color: #172554;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
