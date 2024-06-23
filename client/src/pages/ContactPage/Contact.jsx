@@ -76,9 +76,9 @@ const Contact = () => {
                             placeholder='I want to know about...'
                         />
                     </div>
-                    <button type="submit">Submit</button>
                 </form>
             </div>
+            <button type="submit">Submit</button>
         </div>
     );
 };

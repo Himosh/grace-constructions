@@ -2,8 +2,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 200px;
     margin: auto;
+    padding: 100px;
     max-width: 1240px;
 }
 
@@ -38,3 +38,27 @@
 .contact .contact-container .field {
     padding-bottom: 50px;
 }
+
+.contact button {
+    background: #172554;
+    border-radius: 20px;
+    border: 2px solid transparent;
+  
+    line-height: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+  
+    font-size: 15px;
+    padding: 15px 50px;
+
+    
+    margin: auto;
+  }
+  
+  .contact  button:hover {
+    color: #172554;
+    background-color: #fafafa;
+    border: 2px solid #172554;
+  }
+  
