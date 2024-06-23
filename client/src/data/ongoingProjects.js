@@ -1,7 +1,7 @@
 const ongoingProject = [
     {
         "id": 1,
-        "title": "Project 1 new home therer",
+        "title": "Project 1",
         "work_place": {
             "client": "Client A here i ma geh here i am dude",
             "projectValue": "RS: 1000 million",

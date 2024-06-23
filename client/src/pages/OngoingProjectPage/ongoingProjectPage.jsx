@@ -68,6 +68,7 @@ const OngoingProjectPage = () => {
                                 <p>{project.work_place.supervisor}</p>
                             </li>
                         </ul>
+                        
                         {project.images && project.images.length > 0 ? (
                             <Slideshow images={project.images} />
                         ) : (
