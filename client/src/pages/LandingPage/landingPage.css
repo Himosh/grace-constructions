@@ -1,3 +1,5 @@
+/* landingPage.css */
+
 .landing-page {
     width: 100%;
     align-items: center;
@@ -98,7 +100,36 @@
     color: #172554;
     font-size: 15px;
     text-align: center;
-    margin-top: 25px;
+
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.slider-button {
+    position: absolute;
+    border-radius: 50%;
+    top: 55%;
+    background-color: #172554;
+    color: white;
+    border: none;
+    padding: 3px 16px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.slider-button-left {
+    left: -15px;
+}
+
+.slider-button-right {
+    right: -15px;
 }
 
 .building-images {
@@ -117,33 +148,5 @@
     border-radius: 20px;
     margin: 0 15px;
     transition: transform 0.5s ease-in-out;
-}
-
-.slider-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-}
-
-.slider-button {
-    position: absolute;
-    top: 50%;
-    border-radius: 50%;
-    background-color: #172554;
-    color: white;
-    border: none;
-    padding: 3px 16px;
-    cursor: pointer;
-    z-index: 1;
-    font-size: 30px;
-}
-
-.slider-button-left {
-    left: -23px;
-}
-
-.slider-button-right {
-    right: -23px;
+    /* Add transition for smooth movement */
 }
