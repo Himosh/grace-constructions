@@ -4,7 +4,7 @@ import contactPage from './pages/ContactPage/contactPage';
 function App() {
   return (
     <div className="App">
-      {contactPage}
+      {ContactPage()}
     </div>
   );
 }
