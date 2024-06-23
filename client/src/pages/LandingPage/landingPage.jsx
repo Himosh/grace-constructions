@@ -93,7 +93,7 @@ export const LandingPage = () => {
                         &lt;
                     </button>
                     <div className="building-images">
-                        {images.slice(currentIndex, currentIndex + 4).map((image, index) => (
+                        {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
                             <img
                                 key={index}
                                 src={image}
@@ -101,15 +101,78 @@ export const LandingPage = () => {
                             />
                         ))}
                     </div>
+
                     <button className="slider-button slider-button-right" onClick={handleNext}>
                         &gt;
                     </button>
                 </div>
             </div>
 
-            <div className="project-section">
-                {/* Add project section content here */}
+            <div className="explore-section">
+                <div className="explore-section-head">
+                    Explore Our Projects & Opportunities
+                </div>
+                <div className="explore-box-section">
+                    <div className="explore-box">
+                        <div className="explore-box-detail">
+                            <div className="explore-count">
+                                13+
+                            </div>
+                            <div className="explore-content">
+                                <div className="explore-head">
+                                    Ongoing Projects
+                                </div>
+                                <div className="explore-para">
+                                    Explore Our Evolving Ongoing Projects Portfolio
+                                </div>
+                            </div>
+                        </div>
+                        <button className="explore-button">
+                            View Openings
+                        </button>
+                    </div>
+
+                    <div className="explore-box">
+                        <div className="explore-box-detail">
+                            <div className="explore-count">
+                                550+
+                            </div>
+                            <div className="explore-content">
+                                <div className="explore-head">
+                                    Completed Projects
+                                </div>
+                                <div className="explore-para">
+                                    Explore Our Accomplished Projects Portfolio.
+                                </div>
+                            </div>
+                        </div>
+                        <button className="explore-button">
+                            View Openings
+                        </button>
+                    </div>
+
+                    <div className="explore-box">
+                        <div className="explore-box-detail">
+                            <div className="explore-count">
+                                27+
+                            </div>
+                            <div className="explore-content">
+                                <div className="explore-head">
+                                    Staff Members
+                                </div>
+                                <div className="explore-para">
+                                    Highlighting the Skilled Team at Grace Construction
+                                </div>
+                            </div>
+                        </div>
+                        <button className="explore-button">
+                            View Openings
+                        </button>
+                    </div>
+                </div>
             </div>
+
+
         </div>
     );
 }

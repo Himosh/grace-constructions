@@ -11,7 +11,8 @@
 
 .hero-section-head,
 .service-section-head,
-.work-showcase-head {
+.work-showcase-head,
+.explore-section-head {
     color: #172554;
     font-size: 45px;
     font-weight: 700;
@@ -125,11 +126,11 @@
 }
 
 .slider-button-left {
-    left: -15px;
+    left: 8px;
 }
 
 .slider-button-right {
-    right: -15px;
+    right: 8px;
 }
 
 .building-images {
@@ -139,14 +140,103 @@
     overflow: hidden;
     position: relative;
     width: 100%;
+    /* Adjusted width to fit three images */
+    margin: 0 auto;
+    /* Center the container */
     margin-top: 70px;
 }
 
 .building-images img {
-    width: 400px;
-    height: 300px;
+    width: 30%;
+    /* Each image takes up 1/3 of the container width */
+    height: auto;
     border-radius: 20px;
     margin: 0 15px;
     transition: transform 0.5s ease-in-out;
     /* Add transition for smooth movement */
+}
+
+.explore-box-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 8%;
+}
+
+.explore-box {
+    width: 380px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Adjusted for button */
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #172554;
+    transition: 0.3s;
+}
+
+.explore-box-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.explore-count {
+    width: 100px;
+    /* Fixed size */
+    height: 100px;
+    /* Fixed size */
+    border-radius: 20px;
+    background-color: #172554;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+    /* Adjusted for spacing */
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    flex-shrink: 0;
+    /* Prevent shrinking */
+}
+
+.explore-content {
+    text-align: left;
+}
+
+.explore-head {
+    color: #172554;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.explore-para {
+    color: #172554;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.explore-button {
+    background-color: white;
+    color: #172554;
+    border: 1px solid #172554;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+    width: 316px;
+    height: 53px;
+    margin-bottom: 10px;
+}
+
+.explore-button:hover {
+    background-color: #172554;
+    color: white;
 }
