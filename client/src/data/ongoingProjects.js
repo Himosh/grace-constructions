@@ -1,7 +1,11 @@
 const ongoingProject = [
     {
         "id": 1,
+<<<<<<< HEAD
         "title": "Riverfront Residences",
+=======
+        "title": "Project 1",
+>>>>>>> e2231883d858b9b967c61ba77a9607bae0338b2b
         "work_place": {
             "client": "Hyundai Engineering and Construction",
             "projectValue": "Rs. 2,082.57 Million",

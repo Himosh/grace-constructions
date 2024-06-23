@@ -74,6 +74,7 @@ const OngoingProjectPage = () => {
                                 <p>{project.work_place.supervisor.split(" ").slice(0, -2).join(" ")}<br />{project.work_place.supervisor.split(" ").slice(-2).join(" ")}</p>
                             </li>
                         </ul>
+                        
                         {project.images && project.images.length > 0 ? (
                             <Slideshow images={project.images} />
                         ) : (
