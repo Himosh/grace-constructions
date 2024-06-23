@@ -1,0 +1,234 @@
+.page-container-top {
+    padding: 189px 20px 20px 20px;
+    text-align: center;
+}
+
+.page-container-top h1 {
+    color: #172554;
+    text-align: center;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+}
+
+.page-container-top p {
+    padding-top: 24px;
+    color: #172554;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.page-container-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 125px 20px 750px 20px;
+    margin: 0; 
+}
+
+.card-blog {
+    border-top: 1px solid #172554;
+    margin: 0px 0; 
+    padding: 20px 0;
+    width: 1240px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    position: relative; 
+}
+
+.card-blog h2 {
+    padding-bottom: 33px;
+    color: #172554;
+    font-size: 30px;
+    margin: 0;
+    text-align: left; 
+}
+
+.card-blog ul {
+    height: 200px;
+    width: 60%;
+    color: #172554;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+}
+
+.card-blog li {  
+    color: #172554;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    width: 17%;
+    height:195px; 
+    margin: 0px 10px 50px 10px;
+    padding-bottom: 20px; 
+    padding-top: 20px;
+    text-align: center; 
+}
+
+.card-blog li h4 {
+    font-size: 15px;
+    color: #172554;
+    margin: 5px 0; 
+}
+
+.card-blog li p {
+    font-size: 12px;
+    color: #172554;
+    margin: 1px 0; 
+}
+
+.card-blog li svg {
+    width: 75.74px; 
+    height: 75.74px; 
+    color: #172554;
+    border: 1px solid #172554;
+    border-radius: 15%;
+    padding: 15px; 
+    margin: 10px; 
+}
+
+.card-blog li svg .fauser {
+    width: 150px; 
+    height: 100px; 
+    color: #172554;
+    border: 1px solid #172554;
+    border-radius: 15%;
+    padding: 10px; 
+    margin: 10px;
+}
+
+
+.card-blog h6 {
+    padding-top: 15px;
+    font-size: 15px;
+    color: #172554;
+    margin: 10px 0;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+
+.card-blog h6 svg {
+    height: 25px;
+    width: 25px;
+    margin-right: 25px;
+}
+
+
+/* image slide show */
+
+.slideshow-container {
+    position: absolute;
+    top: 50; 
+    right: 0; 
+    width: 100%;
+    max-width: 401px; 
+    box-sizing: border-box;
+}
+
+.slideshow-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.slideshow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #172554;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideshow-button.prev {
+    left: -20px;
+}
+
+.slideshow-button.next {
+    right: -20px;
+}
+
+.slideshow-button:hover {
+    background-color: #172554;
+}
+
+/* Pagination */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .page-link {
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .page-link:hover {
+    background-color: #f2f2f2;
+    border-color: #aaa;
+  }
+  
+  .page-link:focus {
+    outline: none;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #172554;
+    border-color: #172554;
+    color: #fff;
+  }
+  
+  .page-item.disabled .page-link {
+    pointer-events: none;
+    cursor: default;
+    background-color: #fff;
+    border-color: #fff;
+    color: #999;
+  }
+  
+  .page-link.prev, .page-link.next {
+    font-weight: bold;
+  }
+  
+  .page-link.prev::before {
+    content: '\u2190'; 
+  }
+  
+  .page-link.next::after {
+    content: '\u2192'; 
+  }
