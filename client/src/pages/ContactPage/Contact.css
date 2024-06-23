@@ -1,0 +1,40 @@
+.contact{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    margin: auto;
+    max-width: 1240px;
+}
+
+
+.contact h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contact p{
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.contact .contact-container {
+    padding-top: 100px;
+    margin: auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.contact .contact-container input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.contact .contact-container .field {
+    padding-bottom: 50px;
+}
