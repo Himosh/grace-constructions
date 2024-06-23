@@ -14,7 +14,7 @@ export const landingPage = () => {
                     innovation, and unparalleled craftsmanship. Trust us to turn your dreams into reality, one brick at a time.
                 </div>
                 <div className="hero-section-img">
-                    <img src="" />
+                    <img src="" alt=''/>
                 </div>
             </div>
 
