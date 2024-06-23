@@ -1,12 +1,17 @@
-import { FaUser, FaMoneyBillWave, FaCalendarAlt, FaMapMarkerAlt, FaUserTie, FaRegCalendarCheck } from 'react-icons/fa';
 import './ongoingProjectPage.css';
 import { useEffect, useState } from 'react';
 import ongoingProject from '../../data/ongoingProjects';
+import client from "../../assets/icons/client.png"
+import completion from "../../assets/icons/completion.png"
+import initiation from "../../assets/icons/initiation.png"
+import projectValue from "../../assets/icons/projectValue.png"
+import supervisor from "../../assets/icons/supervisor.png"
+import Location from "../../assets/icons/Location.png"
 
 const OngoingProjectPage = () => {
     const [ongoingProjectData, setOngoingProjectData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const [itemsPerPage] = useState(4); 
+    const [itemsPerPage] = useState(5); 
 
     useEffect(() => {
         setOngoingProjectData(ongoingProject);
@@ -30,12 +35,13 @@ const OngoingProjectPage = () => {
     };
 
     return (
-        <>
+        <div className='page-container'>
             <div className="page-container-top">
                 <h1>Ongoing Projects at Grace Construction</h1>
-                <p>Embark on an extraordinary odyssey as we unveil the rich tapestry of our diverse and dynamic ongoing projects, where each endeavor serves as a testament to our <br/>
-                unwavering commitment to pushing the boundaries of creativity, innovation, and craftsmanship. Join us on this immersive journey as we shape the landscape of <br/>
-                tomorrow's construction and development, pioneering new horizons and redefining industry standards along the way.</p>
+                <p>Embark on an extraordinary odyssey as we unveil the rich tapestry of our diverse and dynamic ongoing projects, 
+                    where each endeavor serves as a testament to our unwavering commitment to pushing the boundaries of creativity, 
+                    innovation, and craftsmanship. Join us on this immersive journey as we shape the landscape of tomorrow's construction 
+                    and development, pioneering new horizons and redefining industry standards along the way.</p>
             </div>
             <div className="page-container-bottom">
                 {currentProjects.map(project => (
@@ -43,29 +49,29 @@ const OngoingProjectPage = () => {
                         <h2>{project.title}</h2>
                         <ul>
                             <li>
-                                <FaUser/>
+                                <img src={client} alt="Client Icon" className='svg' />
                                 <h4>Client</h4>
                                 <p>{project.work_place.client}</p>
                             </li>
                             <li>
-                                <FaMoneyBillWave />
+                                <img src={projectValue} alt="ProjectValue Icon" className='svg' />
                                 <h4>Project Value</h4>
                                 <p>{project.work_place.projectValue}</p>
                             </li>
                             <li>
-                                <FaCalendarAlt />
+                                <img src={initiation} alt="Initition Icon" className='svg' />
                                 <h4>Initiation</h4>
                                 <p>{project.work_place.initiation}</p>
                             </li>
                             <li>
-                                <FaRegCalendarCheck />
+                                <img src={completion} alt="Completion Icon" className='svg' />
                                 <h4>Completion</h4>
                                 <p>{project.work_place.completion}</p>
                             </li>
                             <li>
-                                <FaUserTie />
+                                <img src={supervisor} alt="Supervisor Icon" className='svg' />
                                 <h4>Supervisor</h4>
-                                <p>{project.work_place.supervisor}</p>
+                                <p>{project.work_place.supervisor.split(" ").slice(0, -2).join(" ")}<br />{project.work_place.supervisor.split(" ").slice(-2).join(" ")}</p>
                             </li>
                         </ul>
                         {project.images && project.images.length > 0 ? (
@@ -73,13 +79,14 @@ const OngoingProjectPage = () => {
                         ) : (
                             <p>No images available</p>
                         )}
-                        <h6><FaMapMarkerAlt /> {project.address}</h6>
+                        
+                        <h6><img src={Location} alt="Location Icon" className='svg' /> {project.address}</h6>
                     </div>
                 ))}
                 <Pagination currentPage={currentPage} totalPages={Math.ceil(ongoingProjectData.length / itemsPerPage)} onPageChange={handlePageChange} />
             </div>
             
-        </>
+        </div>
     );
 };
 

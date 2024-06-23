@@ -1,15 +1,15 @@
 const ongoingProject = [
     {
         "id": 1,
-        "title": "Project 1 new home therer",
+        "title": "Riverfront Residences",
         "work_place": {
-            "client": "Client A here i ma geh here i am dude",
-            "projectValue": "RS: 1000 million",
-            "initiation": "Jan 1, 2022",
-            "completion": "Dec 31, 2023",
-            "supervisor": "John Doe"
+            "client": "Hyundai Engineering and Construction",
+            "projectValue": "Rs. 2,082.57 Million",
+            "initiation": "Sep 23, 2020",
+            "completion": "Aug 13, 2024",
+            "supervisor": "V. Rachsuthan Civil Engineer"
         },
-        "address": "123 Main Street",
+        "address": "City Center",
         "images": ["1.png", "2.png", "3.png"]
     },
     {
@@ -20,7 +20,7 @@ const ongoingProject = [
             "projectValue": "RS: 1200 million",
             "initiation": "Feb 1, 2022",
             "completion": "Jan 31, 2024",
-            "supervisor": "Jane Smith"
+            "supervisor": "Jane Computer engineer"
         },
         "address": "456 Elm Avenue",
         "images": ["1.png", "2.png", "3.png"]
@@ -33,7 +33,7 @@ const ongoingProject = [
             "projectValue": "RS: 800 million",
             "initiation": "Mar 1, 2022",
             "completion": "Feb 28, 2023",
-            "supervisor": "David Johnson"
+            "supervisor": "David Johnson civil engineer"
         },
         "address": "789 Oak Boulevard",
         "images": ["1.png", "2.png", "3.png"]
