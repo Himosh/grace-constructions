@@ -24,7 +24,7 @@
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: 69px; 
+    line-height: 69px; /* 153.333% */
 }
 
 .page-container-top p {
@@ -41,8 +41,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0px 0px 750px 0px; 
+    padding: 0px 0px 750px 0px;  /*125*/
     margin: 0; 
+    width: 100%;
 }
 
 .card-blog {
@@ -192,7 +193,7 @@
     background-color: #172554;
 }
 
-/* pagination */
+/* Pagination */
 
 .pagination {
     display: flex;
@@ -249,3 +250,80 @@
   .page-link.next::after {
     content: '\u2192'; 
   }
+
+
+.button-group {
+    width: 600px;
+    height: 53px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.button-group button {
+    background-color: transparent;
+    width: 33.33%; 
+    height: 100%; 
+    border: none;
+    cursor: pointer;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.button-group button p {
+    margin: 0;
+    padding: 0;
+    color: #172554;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button-group button.active,
+.button-group button:hover {
+    background-color: #172554;
+}
+
+.button-group button.active p,
+.button-group button:hover p {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.page-link {
+    color: #172554;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page-item.disabled .page-link,
+.page-item.active .page-link {
+    background-color: #172554;
+    color: #172554;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.page-item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.page-link:hover {
+    background-color: #172554;
+    color: #172554;
+}
+
