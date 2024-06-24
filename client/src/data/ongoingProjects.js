@@ -1,3 +1,8 @@
+import dummy1 from "../assets/images/1.png"
+import dummy2 from "../assets/images/2.png"
+import dummy3 from "../assets/images/3.png"
+import dummy4 from "../assets/images/4.png"
+
 const ongoingProject = [
     {
         "id": 1,
@@ -10,7 +15,7 @@ const ongoingProject = [
             "supervisor": "V. Rachsuthan Civil Engineer"
         },
         "address": "City Center",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 2,
@@ -22,8 +27,8 @@ const ongoingProject = [
             "completion": "Jan 31, 2024",
             "supervisor": "Jane Computer engineer"
         },
-        "address": "456 Elm Avenue",
-        "images": ["1.png", "2.png", "3.png"]
+        "address": "Elm Avenue",
+        "images": [dummy2, dummy1, dummy3, dummy4]
     },
     {
         "id": 3,
@@ -35,8 +40,8 @@ const ongoingProject = [
             "completion": "Feb 28, 2023",
             "supervisor": "David Johnson civil engineer"
         },
-        "address": "789 Oak Boulevard",
-        "images": ["1.png", "2.png", "3.png"]
+        "address": "Oak Boulevard",
+        "images": [dummy3, dummy2, dummy1, dummy4]
     },
     {
         "id": 4,
@@ -46,10 +51,10 @@ const ongoingProject = [
             "projectValue": "RS: 1500 million",
             "initiation": "Apr 1, 2022",
             "completion": "Mar 31, 2024",
-            "supervisor": "Emily Brown"
+            "supervisor": "Emily Brown Software Engineer"
         },
-        "address": "101 Pine Street",
-        "images": ["1.png", "2.png", "3.png"]
+        "address": "Pine Street",
+        "images": [dummy4]
     },
     {
         "id": 5,
@@ -59,10 +64,10 @@ const ongoingProject = [
             "projectValue": "RS: 1100 million",
             "initiation": "May 1, 2022",
             "completion": "Apr 30, 2023",
-            "supervisor": "Michael Wilson"
+            "supervisor": "Michael Wilson Mechanical Engineer"
         },
-        "address": "202 Maple Avenue",
-        "images": ["1.png", "2.png", "3.png"]
+        "address": "Maple Avenue",
+        "images": [dummy4, dummy2, dummy3, dummy1]
     },
     {
         "id": 6,
@@ -75,7 +80,7 @@ const ongoingProject = [
             "supervisor": "Sarah Garcia"
         },
         "address": "303 Cedar Lane",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 7,
@@ -88,7 +93,7 @@ const ongoingProject = [
             "supervisor": "Daniel Lee"
         },
         "address": "404 Walnut Street",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 8,
@@ -101,7 +106,7 @@ const ongoingProject = [
             "supervisor": "Olivia Martinez"
         },
         "address": "505 Elmwood Drive",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 9,
@@ -114,7 +119,7 @@ const ongoingProject = [
             "supervisor": "Alexander Brown"
         },
         "address": "606 Oak Avenue",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 10,
@@ -127,7 +132,7 @@ const ongoingProject = [
             "supervisor": "Isabella Nguyen"
         },
         "address": "707 Pine Lane",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 11,
@@ -140,7 +145,7 @@ const ongoingProject = [
             "supervisor": "Matthew Robinson"
         },
         "address": "808 Cedar Street",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 12,
@@ -153,7 +158,7 @@ const ongoingProject = [
             "supervisor": "Sophia Thompson"
         },
         "address": "909 Maple Drive",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 13,
@@ -166,7 +171,7 @@ const ongoingProject = [
             "supervisor": "Ethan Martinez"
         },
         "address": "1010 Walnut Avenue",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 14,
@@ -179,7 +184,7 @@ const ongoingProject = [
             "supervisor": "Chloe Rodriguez"
         },
         "address": "1111 Elm Lane",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 15,
@@ -192,7 +197,7 @@ const ongoingProject = [
             "supervisor": "Gabriel Garcia"
         },
         "address": "1212 Oak Street",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 16,
@@ -205,7 +210,7 @@ const ongoingProject = [
             "supervisor": "Ava Hernandez"
         },
         "address": "1313 Pine Avenue",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 17,
@@ -218,7 +223,7 @@ const ongoingProject = [
             "supervisor": "Jackson Brown"
         },
         "address": "1414 Cedar Lane",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2, dummy3, dummy4]
     },
     {
         "id": 18,
@@ -231,7 +236,7 @@ const ongoingProject = [
             "supervisor": "Emma Nguyen"
         },
         "address": "1515 Oak Street",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": [dummy1, dummy2]
     }
 ]
 

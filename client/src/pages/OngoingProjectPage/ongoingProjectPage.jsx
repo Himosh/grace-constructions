@@ -80,13 +80,15 @@ const OngoingProjectPage = () => {
                         ) : (
                             <p>No images available</p>
                         )}
-                        
-                        <h6><img src={Location} alt="Location Icon" className='svg' /> {project.address}</h6>
+
+                        <div className="location">
+                            <img src={Location} alt="Location Icon"/>                        
+                            <h6> {project.address}</h6>
+                        </div>
                     </div>
                 ))}
                 <Pagination currentPage={currentPage} totalPages={Math.ceil(ongoingProjectData.length / itemsPerPage)} onPageChange={handlePageChange} />
-            </div>
-            
+            </div> 
         </div>
     );
 };
