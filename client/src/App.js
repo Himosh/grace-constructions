@@ -6,8 +6,10 @@ import OngoingProjectPage from './pages/OngoingProjectPage/ongoingProjectPage';
 function App() {
   return (
     <div className="App">
+      
       {/* <OngoingProjectPage /> */}
       <CompletedProjectPage />
+      
     </div>
   );
 }

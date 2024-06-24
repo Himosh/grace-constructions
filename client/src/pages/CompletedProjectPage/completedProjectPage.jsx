@@ -1,4 +1,5 @@
 import "./completedProjectPage.css"
+import "../OngoingProjectPage/ongoingProjectPage.css"
 import { useEffect, useState } from 'react';
 import completedProject from '../../data/completedProjects';
 import client from "../../assets/icons/client.png";
@@ -98,7 +99,7 @@ const CompletedProjectPage = () => {
                 </p>
                 <div className="button-group">
                     <button onClick={() => setCurrentPage('Signature')} className={currentPage === 'Signature' ? 'active' : ''}><p>Signature</p></button>
-                    <button onClick={() => setCurrentPage('School')} className={currentPage === 'School' ? 'active' : ''}><p>School</p></button>
+                    <button onClick={() => setCurrentPage('School')} className={currentPage === 'School' ? 'active' : ''}><p>Schools</p></button>
                     <button onClick={() => setCurrentPage('Subcontracted')} className={currentPage === 'Subcontracted' ? 'active' : ''}><p>Subcontracted</p></button>
                 </div>
             </div>
