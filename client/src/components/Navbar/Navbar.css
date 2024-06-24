@@ -13,9 +13,11 @@
 }
 
 .navbar img{
-    width: 100px;
-    margin: auto;
     cursor: pointer;
+    width: 97px;
+    height: 64px;
+    flex-shrink: 0;
+    margin: auto;
 }
 
 .navbar .nav-links a{
