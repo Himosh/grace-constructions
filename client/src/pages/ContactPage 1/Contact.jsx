@@ -78,7 +78,7 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" onClick={handleSubmit}>Submit</button>
         </div>
     );
 };
