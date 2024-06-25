@@ -1,0 +1,102 @@
+.contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8%;
+}
+
+.contact h2 {
+    color: #172554;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px; 
+}
+
+.contact p {
+    padding-top: 25px;
+    color: #172554;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact .contact-container {
+    padding-top: 111px;
+    margin: auto;
+    max-width: 612px;
+    text-align: left;
+    color: #172554;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+
+.contact .contact-container input,
+.contact .contact-container textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #172554;
+    outline: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 12px 0; 
+}
+
+.contact .contact-container input::placeholder,
+.contact .contact-container textarea::placeholder {
+    color: #172554;
+    opacity: 0.5;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 35px; 
+}
+
+.contact .contact-container .field {
+    padding-bottom: 50px;
+}
+
+.contact .contact-container #message {
+    height: 110px; 
+    resize: none; 
+    border-bottom: 1px solid #172554; 
+}
+
+.contact button {
+    width: 241px;
+    height: 60px;
+    border-radius: 20px;
+    background: #172554;
+
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    
+    border: 2px solid transparent;
+  
+    
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+  
+    
+}
+
+.contact button:hover {
+    color: #172554;
+    background-color: #fafafa;
+    border: 1px solid #172554;
+}
