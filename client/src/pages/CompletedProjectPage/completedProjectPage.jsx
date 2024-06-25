@@ -37,6 +37,12 @@ const CompletedProjectPage = () => {
         });
     };
 
+    const setCurrentPageAndResetPageNumber = (page) => {
+        setCurrentPage(page);
+        setCurrentPageNumber(1); 
+        scrollToTop(); 
+    };
+
     const renderProjects = () => (
         <div className="page-container-bottom">
             {currentProjects.map((project) => (
@@ -98,9 +104,9 @@ const CompletedProjectPage = () => {
                  in the construction industry.
                 </p>
                 <div className="button-group">
-                    <button onClick={() => setCurrentPage('Signature')} className={currentPage === 'Signature' ? 'active' : ''}><p>Signature</p></button>
-                    <button onClick={() => setCurrentPage('School')} className={currentPage === 'School' ? 'active' : ''}><p>Schools</p></button>
-                    <button onClick={() => setCurrentPage('Subcontracted')} className={currentPage === 'Subcontracted' ? 'active' : ''}><p>Subcontracted</p></button>
+                    <button onClick={() => setCurrentPageAndResetPageNumber('Signature')} className={currentPage === 'Signature' ? 'active' : ''}><p>Signature</p></button>
+                    <button onClick={() => setCurrentPageAndResetPageNumber('School')} className={currentPage === 'School' ? 'active' : ''}><p>Schools</p></button>
+                    <button onClick={() => setCurrentPageAndResetPageNumber('Subcontracted')} className={currentPage === 'Subcontracted' ? 'active' : ''}><p>Subcontracted</p></button>
                 </div>
             </div>
             {renderProjects()}
