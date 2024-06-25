@@ -103,6 +103,7 @@
     cursor: pointer;
     border-radius: 20px;
     margin-top: 0px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .contact .contact-container .upload-button:hover {
@@ -124,6 +125,7 @@
     font-weight: 500;
     line-height: normal;
     margin-top: 90px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .contact button:hover {
