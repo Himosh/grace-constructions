@@ -1,13 +1,13 @@
 import "./completedProjectPage.css"
-import "../OngoingProjectPage/ongoingProjectPage.css"
+import "../OngoingProjectPage/OngoingProjectPage.css"
 import { useEffect, useState } from 'react';
 import completedProject from '../../data/completedProjects';
-import client from "../../assets/icons/client.png";
-import completion from "../../assets/icons/completion.png";
-import initiation from "../../assets/icons/initiation.png";
-import projectValue from "../../assets/icons/projectValue.png";
-import supervisor from "../../assets/icons/supervisor.png";
-import Location from "../../assets/icons/Location.png";
+import client from "../../Assets/Icons/client.png";
+import completion from "../../Assets/Icons/completion.png";
+import initiation from "../../Assets/Icons/initiation.png";
+import projectValue from "../../Assets/Icons/projectValue.png";
+import supervisor from "../../Assets/Icons/supervisor.png";
+import Location from "../../Assets/Icons/Location.png";
 
 const CompletedProjectPage = () => {
     const [ongoingProjectData, setOngoingProjectData] = useState([]);

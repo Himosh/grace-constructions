@@ -1,7 +1,7 @@
-import dummy1 from "../assets/images/1.png"
-import dummy2 from "../assets/images/2.png"
-import dummy3 from "../assets/images/3.png"
-import dummy4 from "../assets/images/4.png"
+import dummy1 from "../Assets/1.png"
+import dummy2 from "../Assets/2.png"
+import dummy3 from "../Assets/3.png"
+import dummy4 from "../Assets/4.png"
 
 const ongoingProject = [
     {

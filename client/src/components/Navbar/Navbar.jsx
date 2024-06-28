@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Navbar.css';
-import Logo from '../../assets/Logo.png';
+import './NavBar.css';
+import Logo from '../../Assets/Logo.png'
 
-const Navbar = () => {
+const NavBar = () => {
     const [active, setActive] = useState('');
 
     const handleClick = (item) => {
@@ -23,14 +23,14 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavBar;
 
 /*
 
 import React, { useState } from 'react';
-import './Navbar.css';
+import './NavBar.css';
 
-const Navbar = () => {
+const NavBar = () => {
     const [active, setActive] = useState('');
 
     const handleClick = (item) => {
@@ -69,6 +69,6 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavBar;
 
 */

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './landingPage.css';
 
 export const LandingPage = () => {
@@ -127,9 +128,11 @@ export const LandingPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="explore-button">
-                            View Openings
-                        </button>
+                        <Link to='/ongoing-projects'>
+                            <button className="explore-button">
+                                Show Projects
+                            </button>
+                        </Link>
                     </div>
 
                     <div className="explore-box">
@@ -146,9 +149,11 @@ export const LandingPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="explore-button">
-                            View Openings
-                        </button>
+                        <Link to='/completed-projects'>
+                            <button className="explore-button">
+                                Show Projects
+                            </button>
+                        </Link>
                     </div>
 
                     <div className="explore-box">
