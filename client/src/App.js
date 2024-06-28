@@ -1,15 +1,11 @@
 import './App.css';
-import CompletedProjectPage from './pages/CompletedProjectPage/completedProjectPage';
-import OngoingProjectPage from './pages/OngoingProjectPage/ongoingProjectPage';
-
+import Contact from './pages/ContactPage 1/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       
-      {/* <OngoingProjectPage /> */}
-      <CompletedProjectPage />
-      
+      <Contact />
     </div>
   );
 }

@@ -1,0 +1,79 @@
+.contact{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 8%;
+    max-width: 1240px;
+
+    padding-bottom: 20px;
+}
+
+
+.contact h2{
+    color: #172554;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px; 
+}
+
+.contact p{
+            width: 1240px;
+            color: #172554;
+            padding-top: 2%;
+            text-align: center;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+}
+
+.contact .contact-container {
+    padding-top: 100px;
+    margin: auto;
+    max-width: 612px;
+    text-align: left;
+}
+
+.contact .contact-container input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #172554;
+    outline: none;
+    width: 612px;
+}
+
+.contact .contact-container .field {
+    padding-bottom: 50px;
+}
+
+.contact .contact-container .field #message{
+    padding-top: 100px;
+}
+.contact button {
+    background: #172554;
+    border-radius: 20px;
+    border: 2px solid transparent;
+  
+    line-height: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+  
+    font-size: 15px;
+    padding: 15px 50px;
+
+    
+    margin: auto;
+  }
+  
+  .contact  button:hover {
+    color: #172554;
+    background-color: #fafafa;
+    border: 2px solid #172554;
+  }
+  
