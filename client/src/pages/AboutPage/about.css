@@ -30,6 +30,7 @@
     height: 388px;
 }
 
+
 .about-content-section-1{
     display: flex;
     justify-content: space-between;
@@ -58,6 +59,7 @@
     height: 368px;
 }
 
+
 .about-content-section-2{
     display: flex;
 }
@@ -68,6 +70,7 @@
     margin-left: 327px;
     margin-top: 99px;
 }
+
 
 .text-content-2 p{
     width: 401px;
@@ -88,9 +91,47 @@
     margin-top: 122px;
 }
 
+
 .image-container{
     position: relative;
 }
+
+.logo-overlay{
+    position: absolute;
+    top: 123px;
+    bottom: 123px;
+    left: 564px;
+    right: 564px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.logo-overlay1{
+    position: absolute;
+    top: 147px;
+    bottom: 147px;
+    left: 151px;
+    right: 151px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.logo-overlay2{
+    position: absolute;
+    top: 147px;
+    bottom: 147px;
+    left: 151px;
+    right: 151px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.logo-overlay3{
+    position: absolute;
+    top: 217px;
+    bottom: 217px;
+    left: 664px;
+    right: 664px;
+    transition: opacity 0.4s ease-in-out;
+}
+
 
 .hover-overlay{
     position: absolute;
@@ -134,4 +175,22 @@
 .image-container:hover .hover-overlay{
     opacity: 0.83;
 }
+
+.image-container:hover .logo-overlay{
+    opacity: 0;
+}
+
+.image-container:hover .logo-overlay1{
+    opacity: 0;
+}
+
+.image-container:hover .logo-overlay2{
+    opacity: 0;
+}
+
+.image-container:hover .logo-overlay3{
+    opacity: 0;
+}
+
+
 

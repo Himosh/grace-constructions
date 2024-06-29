@@ -1,10 +1,11 @@
 
 import React from 'react';
 import './about.css';
-import Image1 from "../../Images/about-firstImg.png";
-import Image2 from "../../Images/content-img-1.png";
-import Image3 from "../../Images/content-img-2.png";
-import Image4 from "../../Images/last-image.png";
+import Image1 from "../../Images/about-firstImg.jpg";
+import Image2 from "../../Images/content-img-1.jpg";
+import Image3 from "../../Images/content-img-2.jpg";
+import Image4 from "../../Images/last-image.jpg";
+import Logo from "../../Images/Mask group.png";
 
 function About(){
     return(
@@ -20,7 +21,8 @@ function About(){
         {/*First-Image*/}
         <div className='about-firstImage'>
             <div className='image-container'>
-                <img src={Image1} alt="about-firstImg"/>
+                    <img src={Image1} alt="about-firstImg"  width="1240px" height="388px"/>
+                    <img src={Logo} alt="logo-1" className='logo-overlay' width= "112px" height="142px" />
                     <div className='hover-overlay'>
                         <div className='hover-overlay-text'>
                             <h3>A Promise of Excellence</h3>
@@ -48,7 +50,8 @@ function About(){
 
             <div className='img-content-1'>
                 <div className='image-container'>
-                    <img src={Image2} alt="img-1"/>
+                    <img src={Image2} alt="img-1"  width="362px" height= "368px"/>
+                    <img src={Logo} alt="logo-1" className='logo-overlay1' width= "112px" height="142px" />
                         <div className='hover-overlay'>
                             <div className='hover-overlay-text'>
                                 <h3>Discover the Excellence</h3>
@@ -66,7 +69,8 @@ function About(){
         <div className='about-content-section-2'>
             <div className='img-content-2'>
                 <div className='image-container'>
-                    <img src={Image3} alt="img-2"/>
+                    <img src={Image3} alt="img-2" width="362px" height= "368px"/>
+                    <img src={Logo} alt="logo-1" className='logo-overlay2' width= "112px" height="142px" />
                         <div className='hover-overlay'>
                             <div className='hover-overlay-text'>
                                 <h3>Experience the Excellence</h3>
@@ -91,7 +95,8 @@ function About(){
         {/*last-image*/}
         <div className='last-image'>
             <div className='image-container'>
-                <img src={Image4} alt="last-img"/>
+                <img src={Image4} alt="last-img"  width= "1440px" height="575px"/>
+                <img src={Logo} alt="logo-1" className='logo-overlay3' width= "112px" height="142px" />
                     <div className='hover-overlay'>
                         <div className='hover-overlay-text'>
                             <h3>A History of Excellence.</h3>
