@@ -32,7 +32,7 @@ const Footer = () => {
                     <input type="text" name="name" placeholder="Name" required />
                     <input type="email" name="email" placeholder="Email Address" required />
                     <input type="tel" name="phone" placeholder="Phone no" required />
-                    <input type='text' name="message" placeholder="Message" required></input>
+                    <textarea type="text" name="message" placeholder='Message'/>
                     <button type="submit">Send</button>
                 </form>
             </div>
@@ -51,7 +51,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; 2024 All Rights Reserved.</p>
+                    <p>Copyright &copy; 2024 All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
