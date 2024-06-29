@@ -7,7 +7,8 @@ import About from './pages/AboutPage/aboutPage'
 import Career from './pages/CareerPage/careerPage'
 import Contact from './pages/ContactPage/contactPage'
 
-import Navbar from './components/NavBar/Navbar';
+import Navbar from './components/NavBar/navBar';
+import Footer from './components/Footer/footer';
 
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
             />
           </Routes>
         </div>
+        <Footer />
+        
     </div>
     </Router>
     

@@ -5,7 +5,6 @@
     color: white;
     padding: 20px 0 0px 100px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 500px;
@@ -27,6 +26,7 @@
     border-bottom-right-radius: 0;
     margin-top: -100px;
     margin-bottom: 200px;
+    margin-left: -20px;
     text-align: left;
     background-color: #fff;
     padding: 30px 180px 50px 60px;
@@ -39,7 +39,7 @@
     padding: 30px;
     padding-top: 50px;
     padding-bottom: 10px;
-    margin: 40px 100px 0px 0;
+    margin: 40px 0 0px 20px;
     text-align: left;
     border: #fff solid;
     border-bottom: transparent;
