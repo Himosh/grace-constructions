@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './landingPage.css';
+import { Link } from 'react-router-dom';
 
 export const LandingPage = () => {
     const images = [
@@ -27,16 +28,29 @@ export const LandingPage = () => {
     return (
         <div className='landing-page'>
             <div className="hero-section">
-                <div className="hero-section-head">
-                    Building Dreams, Creating Realities
+                <div className="hero-section-left">
+                    <div className="hero-section-head">
+                        Building Dreams,<br /> Creating Realities
+                    </div>
+                    <div className="hero-section-para">
+                        At Grace Building Construction, we turn your dreams into reality with precision,<br /> integrity, and excellence. Our dedicated team ensures every project is crafted to <br />perfection, one brick at a time.
+                    </div>
+
+                    <div className="hero-button">
+                        <Link>
+                            <button className="get-button">Get a quote</button>
+                        </Link>
+                    </div>
+
                 </div>
-                <div className="hero-section-para">
-                    At Grace Building Construction, we don't just construct buildings, we create the foundations for your dreams. With a commitment to excellence and a passion for precision, we transform visions into architectural masterpieces. Our team of dedicated professionals ensures every project, big or small, is built with integrity, innovation, and unparalleled craftsmanship. Trust us to turn your dreams into reality, one brick at a time.
-                </div>
-                <div className="hero-section-img">
-                    <img src="/assets/hero-section-img.png" alt="Hero" />
+
+                <div className="hero-section-right">
+                    <div className="hero-section-img">
+                        <img src="/assets/heroImg.jpg" alt="Hero" />
+                    </div>
                 </div>
             </div>
+
 
             <div className="service-section">
                 <div className="service-section-head">
