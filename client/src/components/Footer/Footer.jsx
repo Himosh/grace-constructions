@@ -39,7 +39,7 @@ const Footer = () => {
             <div className='footer-right'>
                 <div className="contact-us">
                     <h2>Contact Us</h2>
-                    <p className='contact-content'>Need a quote or have questions? Contact Grace Building Construction today. We're here to help build your dreams.</p>
+                    <p className='contact-content'>Need a quote or have questions? <span className='no-mobile'>Contact Grace Building Construction today. We're here to help build your dreams.</span></p>
                     <address className='contact-content'>
                         No 03, 5th Lane<br />
                         Manayaweli, Trincomalee,<br />
