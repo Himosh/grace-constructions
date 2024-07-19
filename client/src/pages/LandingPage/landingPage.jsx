@@ -170,9 +170,11 @@ export const LandingPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="explore-button">
-                            View Openings
-                        </button>
+                        <Link to='/staffs'>
+                            <button className="explore-button">
+                                View Opennings
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

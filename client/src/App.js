@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import OngoingProjectPage from "./pages/OngoingProjectPage/OngoingProjectPage";
 import CompletedProjectPage from "./pages/CompletedProjectPage/completedProjectPage";
+import StaffPage from "./pages/StaffPage/staffPage";
 
 
 
@@ -42,6 +43,10 @@ function App() {
                       <Route
                           path='/completed-projects'
                           element={<CompletedProjectPage/>}
+                      />
+                      <Route
+                          path='/staffs'
+                          element={<StaffPage/>}
                       />
                   </Routes>
               </div>

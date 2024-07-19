@@ -1,0 +1,133 @@
+.top {
+  margin-top: 40px;
+  font-size: 15px;
+  margin: 100px 130px 35px 130px;
+  text-align: center;
+  color: #172554;
+}
+
+.top h3 {
+  margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 700;
+
+}
+
+.employee-container {
+  margin-top: 50px;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.front {
+  display: none;
+}
+
+.adjust {
+  margin-top: 70px;
+  margin-right: 135px;
+  font-size: 15px;
+
+}
+
+.adjust h2 {
+  font-size: 45px;
+}
+
+.work {
+  padding: 20px;
+  width: 235px;
+  border: 1.5px solid #191919;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  margin-bottom: 30px;
+  box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.year {
+  padding: 20px;
+  width: 235px;
+  border: 1.5px solid #191919;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 400px) {
+.top{
+  margin: 50px 25px;
+  font-size: 12px;
+}
+  
+  .top h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  .employee-container {
+    display: flex;
+    overflow: hidden;
+    width: 335px;
+    margin:0 auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px;
+    
+   
+  }
+
+  .last {
+    display: none;
+  }
+
+  .front {
+    display: flex;
+
+  }
+  .head{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work {
+    width: 154px;
+    height: 88px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 0 20px 0 0;
+    border-radius: 8px;
+
+  }
+  .year {
+    width: 154px;
+    height: 88px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 0;
+    border-radius: 8px;
+  }
+
+  .adjust h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+.adjust{
+  margin: 20px auto;
+}
+
+}
